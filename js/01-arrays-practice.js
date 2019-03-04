@@ -1,4 +1,8 @@
+/*eslint-env broswer*/
+/*jslint devel: true */
 //STEP 1
+var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice"];
+window.console.log(movies[1]);
 
 //STEP 2
 
