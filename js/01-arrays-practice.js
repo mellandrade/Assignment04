@@ -1,5 +1,6 @@
 /*eslint-env broswer*/
-/*jslint devel: true */
+/*jslint browser: true */
+/*global window */
 
 //STEP 1
 /* var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice"];
@@ -50,11 +51,11 @@ for (i in movies) {
 } */
 
 //STEP 7
-/* var i;
+/*var i;
 var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
 for (i = 0; i < movies.length; i += 1) {
     window.console.log(movies.sort());
-} */
+}*/
 // NEED TO FIGURE OUT
 /* 
 var i;
@@ -63,16 +64,16 @@ for (i in movies) {
     window.console.log(movies.sort());
 } */
 
-//STEP 8
-// NEED TO FIGURE OUT
-/*var i;
-var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
-var leastFavMovies =["Sin City", "Ted", "White Chicks" ];
-for (i = 0; i < movies.length; i += 1) {
-    for (i = 0; i < leastFavMovies.length; i += 1) {
-        window.console.log(movies[i] + "<br>" + leastFavMovies[i]);  
-}
-} */
+//STEP 8 SHOWS BETTER IN WINDOW.DOCUMENT.WRITE
+/*var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
+var leastFavMovies = ["Sin City", "Ted", "White Chicks" ];
+window.console.log("Movies I like:" + "<br>");
+window.console.log("\n" + "<br>");
+window.console.log(favMovies.join("<br>"));
+window.console.log("\n" + "<br>" + "<br>");
+window.console.log("Movies I regret watching:" + "<br>");
+window.console.log("\n" + "<br>");
+window.console.log(leastFavMovies.join("<br>")); */
 
 
 //STEP 9
@@ -103,12 +104,25 @@ movies.splice(7, 8, "Emma", "Jurassic Park", "Jaws");
 window.console.log(movies); */
 
 //STEP 13
+/* var employee1 = [56783, "Jake Creer", "Manager", "Operations", "Active"];
+var employee2 = [23489, "Jenny Lane", "VP", "Marketing", "inActive"];
+var employees = employee1.concat(employee2);
+window.console.log(employees[6]); */
 
-//STEP 14
+//STEP 14 
+/* var i;
+var employee1 = [56783, "Jake Creer", "Manager", "Operations", "Active"];
+var employee2 = [23489, "Jenny Lane", "VP", "Marketing", "inActive"];
+var employees = employee1.concat(employee2);
+for (employees = 0; i < employees.length; i += 1) {
+    window.console.log(i + "<br>");
+}  */
 
 //STEP 15
 
 //STEP 16
+
+var movies = [["Pacific Rim", 1], ["Gone With The Wind", 2], ["Steel Magnolias", 3], ["Little Women", 4], ["Bridget Jones's Diary", 5]];
 
 //STEP 17
 
