@@ -64,24 +64,43 @@ for (i in movies) {
 } */
 
 //STEP 8
-/*
 // NEED TO FIGURE OUT
-var i;
+/*var i;
 var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
-var leastFavMovies =["Sin City", "Ted", "White Chicks" ]
+var leastFavMovies =["Sin City", "Ted", "White Chicks" ];
 for (i = 0; i < movies.length; i += 1) {
     for (i = 0; i < leastFavMovies.length; i += 1) {
-        window.console.log(movies[i] + "<br>" + leastFavMovies);  
+        window.console.log(movies[i] + "<br>" + leastFavMovies[i]);  
 }
-}
-*/
+} */
+
+
 //STEP 9
+/* var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
+var leastFavMovies = ["Sin City", "Ted", "White Chicks" ];
+var movies = favMovies.concat(leastFavMovies);
+window.console.log(movies.sort().reverse()); */
 
 //STEP 10
+/* var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
+var leastFavMovies = ["Sin City", "Ted", "White Chicks" ];
+var movies = favMovies.concat(leastFavMovies);
+movies = movies.pop();
+window.console.log(movies); */
 
 //STEP 11
+/* var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
+var leastFavMovies = ["Sin City", "Ted", "White Chicks" ];
+var movies = favMovies.concat(leastFavMovies);
+movies = movies.shift();
+window.console.log(movies); */
 
 //STEP 12
+/* var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
+var leastFavMovies = ["Sin City", "Ted", "White Chicks" ];
+var movies = favMovies.concat(leastFavMovies);
+movies.splice(7, 8, "Emma", "Jurassic Park", "Jaws");
+window.console.log(movies); */
 
 //STEP 13
 
