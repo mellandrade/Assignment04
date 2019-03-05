@@ -114,15 +114,20 @@ window.console.log(employees[6]); */
 var employee1 = [56783, "Jake Creer", "Manager", "Operations", "Active"];
 var employee2 = [23489, "Jenny Lane", "VP", "Marketing", "inActive"];
 var employees = employee1.concat(employee2);
-for (employees = 0; i < employees.length; i += 1) {
+for (i = 0; i < employees.length; i += 1) {
     window.console.log(i + "<br>");
-}  */
+} */
 
 //STEP 15
+/* var employee3 = [34590, "Jordon Kelp", "Director", "Finance", "false"]; */
 
 //STEP 16
-
-var movies = [["Pacific Rim", 1], ["Gone With The Wind", 2], ["Steel Magnolias", 3], ["Little Women", 4], ["Bridget Jones's Diary", 5]];
+/* var movies = ["Pacific Rim", 1, "Gone With The Wind", 2, "Steel Magnolias", 3, "Little Women", 4, "Bridget Jones's Diary", 5];
+var movieNames = movies.filter(function (item) {
+    "use strict";
+    return typeof item === "string";
+});
+window.console.log(movieNames); */
 
 //STEP 17
 
