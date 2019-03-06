@@ -51,13 +51,10 @@ for (i in movies) {
 } */
 
 //STEP 7
-/*var i;
-var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
-for (i = 0; i < movies.length; i += 1) {
-    window.console.log(movies.sort());
-}*/
-// NEED TO FIGURE OUT
-/* 
+/* Array.prototype.myname = function () {
+    "use strict";
+};
+
 var i;
 var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
 for (i in movies) {
@@ -110,13 +107,13 @@ var employees = employee1.concat(employee2);
 window.console.log(employees[6]); */
 
 //STEP 14 
-/* var i;
+var i;
 var employee1 = [56783, "Jake Creer", "Manager", "Operations", "Active"];
 var employee2 = [23489, "Jenny Lane", "VP", "Marketing", "inActive"];
 var employees = employee1.concat(employee2);
 for (i = 0; i < employees.length; i += 1) {
     window.console.log(i + "<br>");
-} */
+}
 
 //STEP 15
 /* var employee3 = [34590, "Jordon Kelp", "Director", "Finance", "false"]; */
@@ -130,20 +127,20 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
-/* var i;
-var employees = [];
+/*var employees = [];
 employees[0] = "Jade Crimpet";
 employees[1] = "Helen Bosch";
 employees[2] = "Troy Black";
 employees[3] = "Barb Wire";
 employees[4] = "Kelly Scone";
-function displayEmployees(names) {
+function showEmployee() {
     "use strict";
-    for (employees = 1; i < employees.length; employees += 1) {
-        window.console.log(employees);
+    var i;
+    for (employees = 1; i < employees.length; i += 1) {
+        window.console.log(showEmployee);
     }
-} */
-
+}
+*/
 //STEP 18
 /* var isEligible;
 function filterValues(arr) {
@@ -165,7 +162,10 @@ window.console.log(filterValues([58, '', 'abcd', true, null, false, 0])); */
 function randomItems(myArray) {
     "use strict";
     return myArray[Math.floor(Math.random() * myArray.length)];
-};
+}
 window.console.log(randomItems(myArray)); */
 
 //STEP 20
+/*
+var largestNum = [503, 672, 340, 523, 180];
+window.console.log(Math.max.apply(null, largestNum)); */
