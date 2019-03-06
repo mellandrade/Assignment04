@@ -107,13 +107,14 @@ var employees = employee1.concat(employee2);
 window.console.log(employees[6]); */
 
 //STEP 14 
+/*
 var i;
 var employee1 = [56783, "Jake Creer", "Manager", "Operations", "Active"];
 var employee2 = [23489, "Jenny Lane", "VP", "Marketing", "inActive"];
 var employees = employee1.concat(employee2);
-for (i = 0; i < employees.length; i += 1) {
+for (i = [1]; i < employees.length;) {
     window.console.log(i + "<br>");
-}
+} */
 
 //STEP 15
 /* var employee3 = [34590, "Jordon Kelp", "Director", "Finance", "false"]; */
@@ -127,20 +128,14 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
-/*var employees = [];
-employees[0] = "Jade Crimpet";
-employees[1] = "Helen Bosch";
-employees[2] = "Troy Black";
-employees[3] = "Barb Wire";
-employees[4] = "Kelly Scone";
+var i, employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
 function showEmployee() {
     "use strict";
-    var i;
-    for (employees = 1; i < employees.length; i += 1) {
-        window.console.log(showEmployee);
+    for (i = 1; i < employees.length; i ++) {
+        window.console.log(employees[i]);
     }
 }
-*/
+
 //STEP 18
 /* var isEligible;
 function filterValues(arr) {
