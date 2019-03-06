@@ -130,10 +130,42 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
-var employees = []
+/* var i;
+var employees = [];
+employees[0] = "Jade Crimpet";
+employees[1] = "Helen Bosch";
+employees[2] = "Troy Black";
+employees[3] = "Barb Wire";
+employees[4] = "Kelly Scone";
+function displayEmployees(names) {
+    "use strict";
+    for (employees = 1; i < employees.length; employees += 1) {
+        window.console.log(employees);
+    }
+} */
 
 //STEP 18
+/* var isEligible;
+function filterValues(arr) {
+    'use strict';
+    arr = arr.filter(isEligible);
+    return arr;
+}
+
+function isEligible(value) {
+    "use strict";
+    if (value !== false || value !== null || value !== 0 || value !== "") {
+        return value;
+    }
+}
+window.console.log(filterValues([58, '', 'abcd', true, null, false, 0])); */
 
 //STEP 19
+/* var myArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+function randomItems(myArray) {
+    "use strict";
+    return myArray[Math.floor(Math.random() * myArray.length)];
+};
+window.console.log(randomItems(myArray)); */
 
 //STEP 20
