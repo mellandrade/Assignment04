@@ -130,6 +130,7 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
+var employees = []
 
 //STEP 18
 
