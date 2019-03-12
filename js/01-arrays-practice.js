@@ -133,13 +133,19 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
-/* var i, employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
-function showEmployee() {
+/* var employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
+var showEmployee = function (employees) {
     "use strict";
+    var i;
     for (i = 1; i < employees.length; i++) {
-        window.console.log(employees[i]);
     }
-} */
+};
+window.console.log("Employees:" + " <br>" + "<br>");
+window.console.log(employees[0] + "<br>");
+window.console.log(employees[1] + "<br>");
+window.console.log(employees[2] + "<br>");
+window.console.log(employees[3] + "<br>");
+window.console.log(employees[4] + "<br>"); */
 
 //STEP 18
 /* var isEligible;
