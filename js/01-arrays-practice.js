@@ -16,7 +16,7 @@ movies[4] = "Pride and Prejudice";
 window.console.log(movies[0]); */
 
 //STEP 3
-/* var movies = new Array(5);
+/*var movies = new Array(5);
 movies[0] = "French Kiss";
 movies[1] = "Serendipity";
 movies[2] = "Love Actually";
@@ -40,7 +40,6 @@ for (i = 0; i < movies.length; i += 1) {
 //STEP 6
 /* Array.prototype.myname = function () {
     "use strict";
-    
 };
 var i;
 var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
@@ -51,18 +50,17 @@ for (i in movies) {
 } */
 
 //STEP 7
-/* Array.prototype.myname = function () {
+Array.prototype.myname = function () {
     "use strict";
 };
-
-var i;
+/* var i;
 var movies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
 for (i in movies) {
-    window.console.log(movies.sort());
+    window.console.log(movies.sort() + " ");
 } */
 
 //STEP 8 SHOWS BETTER IN WINDOW.DOCUMENT.WRITE
-/*var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
+/* var favMovies = ["French Kiss", "Serendipity", "Love Actually", "Outbreak", "Pride and Prejudice", "Thumbelina", "Overboard"];
 var leastFavMovies = ["Sin City", "Ted", "White Chicks" ];
 window.console.log("Movies I like:" + "<br>");
 window.console.log("\n" + "<br>");
@@ -116,14 +114,15 @@ for (i = [1]; i < employees.length; i += 1) {
 } */
 
 //STEP 15
-/* var i;
-var employee1 = ["56783", "Jake Creer", "Manager", "Operations", "Active"];
+/* var employee1 = ["56783", "Jake Creer", "Manager", "Operations", "Active"];
 var employee2 = ["23489", "Jenny Lane", "VP", "Marketing", "Active"];
 var employee3 = ["34590", "Jordon Kelp", "Director", "Finance", "False"];
 var employees = employee1.concat(employee2, employee3);
-for (i = [1]; i < employees.length; i += 1) {
-    window.console.log(employees[1] + "<br>" + employees[6]);
-} */
+var activeEmployees = employees.filter(function (word) {
+    "use strict";
+    return word[0] === "A";
+});
+window.document.write(activeEmployees[2] + [1]); */
 
 //STEP 16
 /* var movies = ["Pacific Rim", 1, "Gone With The Wind", 2, "Steel Magnolias", 3, "Little Women", 4, "Bridget Jones's Diary", 5];
@@ -134,22 +133,21 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
-/* var i, employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
+var i, employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
 function showEmployee() {
     "use strict";
     for (i = 1; i < employees.length; i++) {
         window.console.log(employees[i]);
     }
-} */
+}
 
 //STEP 18
 /* var isEligible;
 function filterValues(arr) {
-    'use strict';
+    "use strict";
     arr = arr.filter(isEligible);
     return arr;
 }
-
 function isEligible(value) {
     "use strict";
     if (value !== false || value !== null || value !== 0 || value !== "") {
@@ -167,6 +165,5 @@ function randomItems(myArray) {
 window.console.log(randomItems(myArray)); */
 
 //STEP 20
-/*
-var largestNum = [503, 672, 340, 523, 180];
+/* var largestNum = [503, 672, 340, 523, 180];
 window.console.log(Math.max.apply(null, largestNum)); */
