@@ -114,15 +114,15 @@ for (i = [1]; i < employees.length; i += 1) {
 } */
 
 //STEP 15
-/* var employee1 = ["56783", "Jake Creer", "Manager", "Operations", "Active"];
-var employee2 = ["23489", "Jenny Lane", "VP", "Marketing", "Active"];
-var employee3 = ["34590", "Jordon Kelp", "Director", "Finance", "False"];
+/* var employee1 = [{id: 56783, name: "Jake Creer", title: "Manager", dept: "Operations", status: "Active"}];
+var employee2 = [{id: 23489, name: "Jenny Lane", title: "VP", dept: "Marketing", status: "Active"}];
+var employee3 = [{id: 34590, name: "Jordon Kelp", title: "Director", dept: "Finance", status: "False"}];
 var employees = employee1.concat(employee2, employee3);
-var activeEmployees = employees.filter(function (word) {
+var activeEmployees = employees.filter(function (employees) {
     "use strict";
-    return word[0] === "A";
+    return employees.status === "Active";
 });
-window.document.write(activeEmployees[2] + [1]); */
+window.console.log(activeEmployees); */
 
 //STEP 16
 /* var movies = ["Pacific Rim", 1, "Gone With The Wind", 2, "Steel Magnolias", 3, "Little Women", 4, "Bridget Jones's Diary", 5];
@@ -133,13 +133,13 @@ var movieNames = movies.filter(function (item) {
 window.console.log(movieNames); */
 
 //STEP 17
-var i, employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
+/* var i, employees = ["Jade Crimpet", "Helen Bosch", "Troy Black", "Barb Wire", "Kelly Scone"];
 function showEmployee() {
     "use strict";
     for (i = 1; i < employees.length; i++) {
         window.console.log(employees[i]);
     }
-}
+} */
 
 //STEP 18
 /* var isEligible;
